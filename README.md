@@ -8,11 +8,8 @@ These are patches for Max/MSP that I wrote to help me teach music theory concept
 
 Descriptions of the Patches
 
-modular-arithmetic.maxpat
-This allows students to experiment with the concept of mod 12 arithmetic on pitch integers.
+modular-arithmetic.maxpat: Experiment with the concept of mod 12 arithmetic on pitch integers.
 
-pc-intervals.maxpat
-Helps to calculate intervals in post-tonal music.
+pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
 
-pc-set-info.maxpat
-An augmented pitch-class set calculator that includes much useful information.
+pc-set-info.maxpat: An augmented pitch-class set calculator that includes much useful information.
