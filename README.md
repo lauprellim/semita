@@ -17,6 +17,10 @@ Most of these patches require the bach/cage libraries. You can easily download t
 
 12-tone-row-hex-comb.maxpat: Demonstrates a core principle of twelve-tone composition by calculating the combinatorial possiblities of any hexachord.
 
+intonation-equal.maxpat: Create and experiment with any equal-tempered system.
+
+intonation-just.maxpat: Create and experiment with any just intonation.
+
 modular-arithmetic.maxpat: Experiment with the concept of mod 12 arithmetic on pitch integers.
 
 pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
