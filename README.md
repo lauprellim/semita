@@ -7,9 +7,15 @@ These are patches for Max/MSP that I wrote to help teach music theory concepts. 
 
 **Dependencies**
 
-Most of these patches require the bach/cage libraries. You can easily download them in the Max package manager.
+Most of these patches require the bach/cage libraries. You can easily download them in the Max package manager. They are free.
 
 **Descriptions of the Patches**
+
+12-tone-row-all-int.maxpat: Based on a help file of the Bach library, this patch constructs one of the 1928 all-interval tone rows.
+
+12-tone-row-basic.maxpat: This patch constructs a twelve-tone matrix out of a tone row. It includes an amusing visualization of the row structure.
+
+12-tone-row-hex-comb.maxpat: Demonstrates a core principle of twelve-tone composition by calculating the combinatorial possiblities of any hexachord.
 
 modular-arithmetic.maxpat: Experiment with the concept of mod 12 arithmetic on pitch integers.
 
