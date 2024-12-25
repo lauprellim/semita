@@ -26,3 +26,5 @@ modular-arithmetic.maxpat: Experiment with the concept of mod 12 arithmetic on p
 pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
 
 pc-set-info.maxpat: An augmented pitch-class set calculator that includes much useful information.
+
+synthesis-fm.maxpat: Easily experiment with creating harmonies using techniques of FM synthesis. Export your harmonies as MIDI files.
