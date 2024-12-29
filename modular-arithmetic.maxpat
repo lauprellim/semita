@@ -10,9 +10,53 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 39.0, 87.0, 1080.0, 732.0 ],
+		"rect" : [ 303.0, 87.0, 1080.0, 732.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 72.0, 479.0, 45.0, 22.0 ],
+					"text" : "names"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 72.0, 442.0, 308.0, 22.0 ],
+					"text" : "names C C#/Db D D#/Eb E F F#/Gb G G#/Ab A A#/Bb B"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "bach.circle",
+					"names" : [ "C", "C#/Db", "D", "D#/Eb", "E", "F", "F#/Gb", "G", "G#/Ab", "A", "A#/Bb", "B" ],
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"out" : "nn",
+					"outlettype" : [ "", "", "int", "bang" ],
+					"patching_rect" : [ 39.0, 526.5, 196.0, 196.0 ],
+					"points" : [ 0 ],
+					"shownumbers" : 3,
+					"velocities" : [ 100 ],
+					"versionnumber" : 80300
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-62",
@@ -62,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 328.5, 119.0, 49.0 ],
+					"patching_rect" : [ 433.0, 328.5, 120.0, 49.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"versionnumber" : 80300
@@ -302,7 +346,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 442.0, 199.0, 315.0 ],
+					"patching_rect" : [ 1011.0, 395.5, 199.0, 315.0 ],
 					"text" : "Copyright (C) 2025 Paul V. Miller\nVersion 0.5\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nFor further information, please visit https://www.gnu.org/licenses/."
 				}
 
@@ -676,7 +720,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 39.0, 347.5, 50.0, 22.0 ],
+					"patching_rect" : [ 39.0, 348.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 81.0, 163.0, 50.0, 22.0 ]
 				}
@@ -897,6 +941,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -941,6 +992,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -991,15 +1049,26 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-6",
+		"originid" : "pat-115",
 		"dependency_cache" : [ 			{
 				"name" : "bach.args.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.circle.mxo",
 				"type" : "iLaX"
 			}
 , 			{
