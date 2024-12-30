@@ -27,4 +27,6 @@ pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
 
 pc-set-info.maxpat: An augmented pitch-class set calculator that includes much useful information.
 
+serial-matrix-generator.maxpat: Generates systems of serial matrices somewhat in the spirit of Stockhausen.
+
 synthesis-fm.maxpat: Easily experiment with creating harmonies using techniques of FM synthesis. Export your harmonies as MIDI files.
