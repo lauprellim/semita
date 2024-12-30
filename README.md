@@ -17,6 +17,8 @@ Most of these patches require the bach/cage libraries. You can easily download t
 
 12-tone-row-hex-comb.maxpat: Demonstrates a core principle of twelve-tone composition by calculating the combinatorial possiblities of any hexachord.
 
+euclid-rhythm-gen.maxpat: Make Euclidean rhythms and sets. NB: requires makeEuclid.js as a dependency!
+
 intonation-equal.maxpat: Create and experiment with any equal-tempered system.
 
 intonation-just.maxpat: Create and experiment with any just intonation.
