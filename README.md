@@ -19,7 +19,7 @@ Some patches (such as pc-set-info.maxpat and euclid-rhythm-gen.maxpat) require a
 
 12-tone-row-hex-comb.maxpat: Demonstrates a core principle of twelve-tone composition by calculating the combinatorial possiblities of any hexachord.
 
-* euclid-rhythm-gen.maxpat: Make Euclidean rhythms and sets. Requires makeEuclid.js as a dependency.
+*euclid-rhythm-gen.maxpat: Make Euclidean rhythms and sets. Requires makeEuclid.js as a dependency.
 
 intonation-equal.maxpat: Create and experiment with any equal-tempered system.
 
@@ -29,7 +29,7 @@ modular-arithmetic.maxpat: Experiment with the concept of mod 12 arithmetic on p
 
 pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
 
-* pc-set-info.maxpat: An augmented pitch-class set calculator that includes much useful information. Requires an abstraction [nform.maxpat].
+*pc-set-info.maxpat: An augmented pitch-class set calculator that includes much useful information. Requires an abstraction [nform.maxpat].
 
 serial-matrix-generator.maxpat: Generates systems of serial matrices somewhat in the spirit of Stockhausen.
 
