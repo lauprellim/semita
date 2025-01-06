@@ -34,3 +34,7 @@ pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
 serial-matrix-generator.maxpat: Generates systems of serial matrices somewhat in the spirit of Stockhausen.
 
 synthesis-fm.maxpat: Easily experiment with creating harmonies using techniques of FM synthesis. Export your harmonies as MIDI files.
+
+development/ : a folder that contains more specialized patches that may be for specific purposes
+
+----------make-color-strips.maxpat: use jit.mo objects to animate 1-dimensional Jitter matrices, which can then send their data out to NeoPixel LED strips or rings.
