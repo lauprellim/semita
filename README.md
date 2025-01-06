@@ -9,6 +9,8 @@ These are patches for Max/MSP that I wrote to help teach music theory concepts. 
 
 Most of these patches require the bach/cage libraries. You can easily download them in the Max package manager. They are free.
 
+Some patches (such as pc-set-info.maxpat and euclid-rhythm-gen.maxpat) require additional dependencies which are included in the main Semita distribution and indicated below. A file with an asterisk (*) before it requires a dependency.
+
 **Descriptions of the Patches**
 
 12-tone-row-all-int.maxpat: Based on a help file of the Bach library, this patch constructs one of the 1928 all-interval tone rows.
@@ -17,7 +19,7 @@ Most of these patches require the bach/cage libraries. You can easily download t
 
 12-tone-row-hex-comb.maxpat: Demonstrates a core principle of twelve-tone composition by calculating the combinatorial possiblities of any hexachord.
 
-euclid-rhythm-gen.maxpat: Make Euclidean rhythms and sets. Requires makeEuclid.js as a dependency.
+* euclid-rhythm-gen.maxpat: Make Euclidean rhythms and sets. Requires makeEuclid.js as a dependency.
 
 intonation-equal.maxpat: Create and experiment with any equal-tempered system.
 
@@ -27,7 +29,7 @@ modular-arithmetic.maxpat: Experiment with the concept of mod 12 arithmetic on p
 
 pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
 
-pc-set-info.maxpat: An augmented pitch-class set calculator that includes much useful information. Requires an abstraction [nform.maxpat].
+* pc-set-info.maxpat: An augmented pitch-class set calculator that includes much useful information. Requires an abstraction [nform.maxpat].
 
 serial-matrix-generator.maxpat: Generates systems of serial matrices somewhat in the spirit of Stockhausen.
 
