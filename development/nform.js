@@ -2,7 +2,6 @@
 // Written on 4 February 2025 by Paul V. Miller
 // http://www.theoryofpaul.net
 
-
 var myval=0;
 
 if (jsarguments.length>1)
@@ -20,6 +19,8 @@ function list()
 				
 	// Gotta sort this way because JavaScript normally sorts alphabetically.
 	a.sort(function(f, g) { return f - g; });
+	// remove duplicates in the array using a hash table
+	a = uniq(a);
 
 	// this will be a 2-dimensional array to hold the ints
 	var twodIntArray = [];
@@ -62,6 +63,14 @@ function rotateArrayRight(a, k) {
 	var n = a.length;
 	const rotated = a.slice(-k).concat(a.slice(0, n-k));
 	return rotated;
+}
+
+// remove duplicates in the array using a hash table
+function uniq(a) {
+	var seen = {};
+	return a.filter(function(item) {
+		return seen.hasOwnProperty(item) ? false: (seen[item] = true);
+	});
 }
 
 // ==================
