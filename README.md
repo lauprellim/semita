@@ -21,9 +21,11 @@ Some patches (such as pc-set-info.maxpat and euclid-rhythm-gen.maxpat) require a
 
 *euclid-rhythm-gen.maxpat: Make Euclidean rhythms and sets. Requires makeEuclid.js as a dependency.
 
-intonation-equal.maxpat: Create and experiment with any equal-tempered system.
+intonation-equal.maxpat: Create and experiment with any equal-tempered system of intervals.
 
-intonation-just.maxpat: Create and experiment with any just intonation.
+intonation-just.maxpat: Create and experiment with any just intervals.
+
+intonation-just-calculator.maxpat: Go deeper into the math behind just intonation.
 
 modular-arithmetic.maxpat: Experiment with the concept of mod 12 arithmetic on pitch integers.
 
