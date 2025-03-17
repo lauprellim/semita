@@ -27,6 +27,8 @@ intonation-just.maxpat: Create and experiment with any just intervals.
 
 intonation-just-calculator.maxpat: Go deeper into the math behind just intonation.
 
+lfo.maxpat: A simple implementation of an LFO to demonstrate distortion on a sound file or sine wave.
+
 modular-arithmetic.maxpat: Experiment with the concept of mod 12 arithmetic on pitch integers.
 
 pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
