@@ -39,7 +39,7 @@ serial-matrix-generator.maxpat: Generates systems of serial matrices somewhat in
 
 synthesis-fm.maxpat: Easily experiment with creating harmonies using techniques of FM synthesis. Export your harmonies as MIDI files.
 
-synthesis-granulator: A fairly complex granular synthesizer.
+synthesis-granular-stereo.maxpat: A granular synthesizer.
 
 development/ : a folder that contains more specialized patches that may be for specific purposes
 
