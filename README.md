@@ -37,11 +37,15 @@ pc-intervals.maxpat: Helps to calculate intervals in post-tonal music.
 
 serial-matrix-generator.maxpat: Generates systems of serial matrices somewhat in the spirit of Stockhausen.
 
+synthesis-additive.maxpat: A patch where you can learn about some basic principles of additive synthesis, using a graphical staff notation.
+
 synthesis-fm-audio.maxpat: Use a simnple form of FM synthesis to create sounds in the audio domain.
 
 synthesis-fm-midi.maxpat: Easily experiment with creating harmonies using techniques of FM synthesis. Export your harmonies as MIDI files.
 
 synthesis-granular-stereo.maxpat: A granular synthesizer.
+
+sysnthesis-subtractive.maxpat: A way to demonstrate basic principles of subtractive synthesis using a graphical staff notation.
 
 development/ : a folder that contains more specialized patches that may be for specific purposes
 
