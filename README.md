@@ -47,6 +47,8 @@ synthesis-granular-stereo.maxpat: A granular synthesizer.
 
 sysnthesis-subtractive.maxpat: A way to demonstrate basic principles of subtractive synthesis using a graphical staff notation.
 
+synthesis-wavetable.maxpat: Demonstrate three basic kinds of wavetable synthesis.
+
 development/ : a folder that contains more specialized patches that may be for specific purposes
 
 ----------make-color-strips.maxpat: use jit.mo objects to animate 1-dimensional Jitter matrices, which can then send their data out to NeoPixel LED strips or rings.
