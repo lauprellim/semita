@@ -56,3 +56,5 @@ development/ : a folder that contains more specialized patches that may be for s
 ----------make-color-strips.maxpat: use jit.mo objects to animate 1-dimensional Jitter matrices, which can then send their data out to NeoPixel LED strips or rings.
 
 ----------nform.js: a prototype for finding normal form using javascript
+
+----------spectral-editor-01.maxpat: a tool for converting .SDIF files to MIDI or MusicXML. Crude at best -- but works!
