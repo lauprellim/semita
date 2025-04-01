@@ -57,4 +57,4 @@ development/ : a folder that contains more specialized patches that may be for s
 
 ----------nform.js: a prototype for finding normal form using javascript
 
-----------spectral-editor-01.maxpat: a tool for converting .SDIF files to MIDI or MusicXML. Crude at best -- but works!
+----------spectral-editor.maxpat: a tool for converting .SDIF files to MIDI or MusicXML. Crude at best -- but works!
