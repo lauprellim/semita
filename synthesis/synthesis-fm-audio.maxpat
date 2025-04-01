@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 854.0, 662.0 ],
+		"rect" : [ 59.0, 106.0, 1058.0, 852.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -21,7 +21,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.0, 332.0, 79.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "modulator"
 				}
 
@@ -351,7 +350,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -710,7 +709,7 @@
 
 							}
  ],
-						"originid" : "pat-12"
+						"originid" : "pat-4560"
 					}
 ,
 					"patching_rect" : [ 613.0, 182.0, 295.0, 22.0 ],
@@ -794,7 +793,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 280.0, 369.0, 100.0, 22.0 ],
-					"text" : "*~ 1"
+					"text" : "*~ 1."
 				}
 
 			}
@@ -1365,7 +1364,7 @@
 
 			}
  ],
-		"originid" : "pat-10",
+		"originid" : "pat-4558",
 		"parameters" : 		{
 			"obj-63" : [ "live.gain~", "output gain", 0 ],
 			"parameterbanks" : 			{
