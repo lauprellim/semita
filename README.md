@@ -39,20 +39,20 @@ serial-matrix-generator.maxpat: Generates systems of serial matrices somewhat in
 
 synthesis/
 
-synthesis-additive.maxpat: A patch where you can learn about some basic principles of additive synthesis, using a graphical staff notation.
+  synthesis-additive.maxpat: A patch where you can learn about some basic principles of additive synthesis, using a graphical staff notation.
 
-synthesis-fm-audio.maxpat: Use a simnple form of FM synthesis to create sounds in the audio domain.
+  synthesis-fm-audio.maxpat: Use a simnple form of FM synthesis to create sounds in the audio domain.
 
-synthesis-fm-midi.maxpat: Easily experiment with creating harmonies using techniques of FM synthesis. Export your harmonies as MIDI files.
+  synthesis-fm-midi.maxpat: Easily experiment with creating harmonies using techniques of FM synthesis. Export your harmonies as MIDI files.
 
-synthesis-granular-stereo.maxpat: A granular synthesizer.
+  synthesis-granular-stereo.maxpat: A granular synthesizer.
 
-sysnthesis-subtractive.maxpat: A way to demonstrate basic principles of subtractive synthesis using a graphical staff notation.
+  synthesis-subtractive.maxpat: A way to demonstrate basic principles of subtractive synthesis using a graphical staff notation.
 
-synthesis-wavetable.maxpat: Demonstrate three basic kinds of wavetable synthesis.
+  synthesis-wavetable.maxpat: Demonstrate three basic kinds of wavetable synthesis.
 
 development/ : a folder that contains more specialized patches that may be for specific purposes
 
-----------nform.js: a prototype for finding normal form using javascript
+  nform.js: a prototype for finding normal form using javascript
 
-----------spectral-editor.maxpat: a tool for converting .SDIF files to MIDI or MusicXML. Crude at best -- but works!
+  spectral-editor.maxpat: a tool for converting .SDIF files to MIDI or MusicXML. Crude at best -- but works!
