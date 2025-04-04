@@ -47,6 +47,8 @@ synthesis/
 
   synthesis-granular-stereo.maxpat: A granular synthesizer.
 
+  synthesis-karplus-strong.maxpat: A simple karplus-strong patch demonstrating physical modelling, based on Sam's YouTube tutorial.
+
   synthesis-subtractive.maxpat: A way to demonstrate basic principles of subtractive synthesis using a graphical staff notation.
 
   synthesis-wavetable.maxpat: Demonstrate three basic kinds of wavetable synthesis.
