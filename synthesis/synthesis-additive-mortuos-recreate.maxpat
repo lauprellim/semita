@@ -14,13 +14,13 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-23",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 34.0, 150.0, 47.0 ],
-					"text" : "Recreating the bell in Jonathan Harvey's \"Mortuos\"..."
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 275.0, 381.0, 40.0, 22.0 ],
+					"text" : "*~ 0.2"
 				}
 
 			}
@@ -29,10 +29,10 @@
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "Macintosh HD:/Users/millerp3/Desktop/mortuos-bell.wav",
-								"filename" : "mortuos-bell.wav",
+								"absolutepath" : "Macintosh HD:/Users/millerp3/Desktop/semita-main 2/synthesis/synthesis-additive-mortuos-bell.wav",
+								"filename" : "synthesis-additive-mortuos-bell.wav",
 								"filekind" : "audiofile",
-								"id" : "u158006218",
+								"id" : "u769000902",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -44,7 +44,7 @@
 ,
 					"followglobaltempo" : 0,
 					"formantcorrection" : 0,
-					"id" : "obj-21",
+					"id" : "obj-4",
 					"maxclass" : "playlist~",
 					"mode" : "basic",
 					"numinlets" : 1,
@@ -53,7 +53,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 38.0, 331.0, 150.0, 30.0 ],
+					"patching_rect" : [ 9.0, 264.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"saved_attribute_attributes" : 					{
@@ -88,6 +88,18 @@
 					}
 ,
 					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 41.0, 34.0, 150.0, 47.0 ],
+					"text" : "Recreating the bell in Jonathan Harvey's \"Mortuos\"..."
 				}
 
 			}
@@ -152,7 +164,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 275.0, 390.0, 136.0, 41.0 ],
+					"patching_rect" : [ 275.0, 420.0, 136.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -203,7 +215,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.0, 377.0, 300.0, 100.0 ]
+					"patching_rect" : [ 463.0, 448.0, 300.0, 100.0 ]
 				}
 
 			}
@@ -237,7 +249,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 275.0, 447.0, 45.0, 45.0 ]
+					"patching_rect" : [ 279.0, 518.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -289,7 +301,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"order" : 1,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
+					"order" : 2,
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -327,16 +356,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"order" : 1,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -350,22 +370,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-21", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -384,7 +411,7 @@
 
 			}
  ],
-		"originid" : "pat-277",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-13" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
@@ -400,8 +427,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "mortuos-bell.wav",
-				"bootpath" : "~/Desktop",
+				"name" : "synthesis-additive-mortuos-bell.wav",
+				"bootpath" : "~/Desktop/semita-main 2/synthesis",
 				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
