@@ -10,9 +10,48 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 80.0, 451.0, 1124.0, 780.0 ],
+		"rect" : [ 867.0, 515.0, 1124.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.0, 271.0, 150.0, 47.0 ],
+					"text" : "Works best with a Novation Launchkey 25 keyboard"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 5,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 184.0, 136.0, 76.0 ],
+					"presentation_linecount" : 5,
+					"text" : ";\rmax launchbrowser https://github.com/AJMansfield/polySynth/blob/master/scl/cet63.scl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 5,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 90.0, 136.0, 76.0 ],
+					"text" : ";\rmax launchbrowser https://www.huygens-fokker.org/docs/scalesdir.txt"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 24.0,
 					"id" : "obj-48",
@@ -89,7 +128,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 626.0, 95.0, 247.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "target 0, scale 7 10 9 5 4 4 3 3 2 5 3 15 8 2 1"
 				}
 
@@ -112,8 +150,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 643.0, 187.0, 116.0, 20.0 ],
-					"text" : "wolf fifth from D to A"
+					"patching_rect" : [ 643.0, 187.0, 126.0, 20.0 ],
+					"text" : "\"wolf\" fifth from G to D"
 				}
 
 			}
@@ -181,18 +219,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-28",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 125.0, 150.0, 47.0 ],
-					"text" : "https://github.com/AJMansfield/polySynth/blob/master/scl/cet63.scl"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -253,18 +279,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 84.0, 150.0, 33.0 ],
-					"text" : "https://www.huygens-fokker.org/docs/scalesdir.txt"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -295,7 +309,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 367.5, 325.0, 109.0, 22.0 ],
-					"text" : "1 61 0 1"
+					"text" : "3 60 0 2"
 				}
 
 			}
@@ -387,7 +401,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 367.5, 383.0, 132.0, 22.0 ],
+					"patching_rect" : [ 368.0, 383.0, 129.0, 22.0 ],
 					"text" : "poly~ tuning-synth 4"
 				}
 
@@ -662,7 +676,7 @@
 
 			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-52",
 		"parameters" : 		{
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
@@ -679,7 +693,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "tuning-synth.maxpat",
-				"bootpath" : "~/Desktop/tuning-synth",
+				"bootpath" : "~/Desktop/semita-main/tuning",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
