@@ -10,9 +10,44 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 867.0, 515.0, 1124.0, 780.0 ],
+		"rect" : [ 1209.0, 468.0, 1124.0, 780.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 627.0, 19.0, 178.0, 20.0 ],
+					"text" : "Partch's 7-limit tonality diamond"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 87.0, 372.0, 32.0, 22.0 ],
+					"text" : "mtof"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 627.0, 41.0, 374.0, 22.0 ],
+					"text" : "target 0, scale 13 8 7 7 6 6 5 5 4 4 3 7 5 10 7 3 2 8 5 5 3 12 7 7 4 2 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -333,7 +368,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 367.5, 325.0, 109.0, 22.0 ],
-					"text" : "2 55 0 1"
+					"text" : "4 69 0 1"
 				}
 
 			}
@@ -505,6 +540,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-51", 3 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
