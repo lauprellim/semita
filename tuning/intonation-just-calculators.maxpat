@@ -21,7 +21,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 89.0, 418.0, 47.0 ],
+					"patching_rect" : [ 626.0, 22.0, 418.0, 47.0 ],
 					"text" : "These patches are meant to help provide some tools to understand Just Intonation. You can also experiment with the idea of using ratios to represent musical intervals in many ways. Hopefully these are useful!"
 				}
 
@@ -44,7 +44,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 220.0, 253.0, 1638.0, 932.0 ],
+						"rect" : [ 0.0, 26.0, 1638.0, 932.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"showontab" : 2,
 						"boxes" : [ 							{
@@ -660,7 +660,7 @@
 						"originid" : "pat-6"
 					}
 ,
-					"patching_rect" : [ 460.0, 292.0, 139.0, 22.0 ],
+					"patching_rect" : [ 1062.0, 227.0, 139.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -1372,7 +1372,7 @@
 						"originid" : "pat-10"
 					}
 ,
-					"patching_rect" : [ 459.0, 261.0, 168.0, 22.0 ],
+					"patching_rect" : [ 1061.0, 196.0, 168.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -1877,7 +1877,7 @@
 						"originid" : "pat-16"
 					}
 ,
-					"patching_rect" : [ 459.0, 203.0, 130.0, 22.0 ],
+					"patching_rect" : [ 1061.0, 138.0, 130.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -1948,7 +1948,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 289.0, 22.0, 235.0, 79.0 ],
-									"text" : "Convert More Large Intervals to Cents",
+									"text" : "Convert More Intervals to Cents",
 									"textjustification" : 1
 								}
 
@@ -1981,7 +1981,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "preset", "int", "preset", "int", "" ],
-									"patching_rect" : [ 307.0, 170.0, 125.0, 18.0 ],
+									"patching_rect" : [ 307.0, 170.0, 144.0, 18.0 ],
 									"preset_data" : [ 										{
 											"number" : 1,
 											"data" : [ 6, "obj-86", "bach.ratnum", "list", 81, 64 ]
@@ -2286,12 +2286,12 @@
 						"originid" : "pat-18"
 					}
 ,
-					"patching_rect" : [ 459.0, 231.0, 200.0, 22.0 ],
+					"patching_rect" : [ 1061.0, 166.0, 166.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
 ,
-					"text" : "p \"Convert Large Intervals to Cents\""
+					"text" : "p \"Convert Intervals to Cents\""
 				}
 
 			}
@@ -2608,7 +2608,7 @@
 									"outlettype" : [ "", "bang" ],
 									"outputmode" : 1,
 									"patching_rect" : [ 29.0, 135.0, 140.0, 22.0 ],
-									"text" : "7/5"
+									"text" : "0/1"
 								}
 
 							}
@@ -2752,7 +2752,7 @@
 						"originid" : "pat-20"
 					}
 ,
-					"patching_rect" : [ 457.0, 176.0, 154.0, 22.0 ],
+					"patching_rect" : [ 1059.0, 111.0, 154.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -2791,7 +2791,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 205.0, 106.0, 55.0, 39.0 ],
-									"presentation_linecount" : 2,
 									"text" : "Subtract",
 									"textjustification" : 1
 								}
@@ -3283,7 +3282,7 @@
 						"originid" : "pat-22"
 					}
 ,
-					"patching_rect" : [ 455.0, 149.0, 157.0, 22.0 ],
+					"patching_rect" : [ 1057.0, 84.0, 157.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -3726,7 +3725,7 @@
 						"originid" : "pat-24"
 					}
 ,
-					"patching_rect" : [ 455.0, 119.0, 121.0, 22.0 ],
+					"patching_rect" : [ 1057.0, 54.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}
@@ -4283,7 +4282,7 @@
 						"originid" : "pat-26"
 					}
 ,
-					"patching_rect" : [ 455.0, 89.0, 138.0, 22.0 ],
+					"patching_rect" : [ 1057.0, 24.0, 138.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : ""
 					}

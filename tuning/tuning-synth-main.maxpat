@@ -14,6 +14,19 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-6",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 875.0, 116.0, 204.0, 51.0 ],
+					"text" : "try c-e-g (keys a, b, c#)\nthen try g minor (keys c#, d#, f)\nCompare both to 12tet"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -33,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 13.0, 184.0, 136.0, 76.0 ],
-					"presentation_linecount" : 5,
 					"text" : ";\rmax launchbrowser https://github.com/AJMansfield/polySynth/blob/master/scl/cet63.scl"
 				}
 
@@ -309,7 +321,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 367.5, 325.0, 109.0, 22.0 ],
-					"text" : "3 60 0 2"
+					"text" : "3 48 0 1"
 				}
 
 			}
@@ -676,7 +688,7 @@
 
 			}
  ],
-		"originid" : "pat-52",
+		"originid" : "pat-70",
 		"parameters" : 		{
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
