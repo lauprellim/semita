@@ -14,6 +14,18 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 262.0, 383.0, 81.0, 22.0 ],
+					"text" : "loadmess -90"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-6",
 					"linecount" : 3,
@@ -321,7 +333,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 367.5, 325.0, 109.0, 22.0 ],
-					"text" : "3 48 0 1"
+					"text" : "2 55 0 1"
 				}
 
 			}
@@ -654,6 +666,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-51", 0 ]
 				}
@@ -688,7 +707,7 @@
 
 			}
  ],
-		"originid" : "pat-70",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
