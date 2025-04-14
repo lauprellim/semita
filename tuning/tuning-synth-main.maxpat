@@ -368,7 +368,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 367.5, 325.0, 109.0, 22.0 ],
-					"text" : "4 62 0 1"
+					"text" : "1 57 88 1"
 				}
 
 			}
@@ -460,7 +460,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 368.0, 383.0, 129.0, 22.0 ],
+					"patching_rect" : [ 368.0, 383.0, 116.0, 22.0 ],
 					"text" : "poly~ tuning-synth 4"
 				}
 
@@ -756,7 +756,7 @@
 
 			}
  ],
-		"originid" : "pat-322",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
