@@ -657,7 +657,7 @@
 
 							}
  ],
-						"originid" : "pat-6"
+						"originid" : "pat-26"
 					}
 ,
 					"patching_rect" : [ 1062.0, 227.0, 139.0, 22.0 ],
@@ -1369,7 +1369,7 @@
 
 							}
  ],
-						"originid" : "pat-10"
+						"originid" : "pat-30"
 					}
 ,
 					"patching_rect" : [ 1061.0, 196.0, 168.0, 22.0 ],
@@ -1874,7 +1874,7 @@
 
 							}
  ],
-						"originid" : "pat-16"
+						"originid" : "pat-34"
 					}
 ,
 					"patching_rect" : [ 1061.0, 138.0, 130.0, 22.0 ],
@@ -2283,7 +2283,7 @@
 
 							}
  ],
-						"originid" : "pat-18"
+						"originid" : "pat-36"
 					}
 ,
 					"patching_rect" : [ 1061.0, 166.0, 166.0, 22.0 ],
@@ -2749,7 +2749,7 @@
 
 							}
  ],
-						"originid" : "pat-20"
+						"originid" : "pat-38"
 					}
 ,
 					"patching_rect" : [ 1059.0, 111.0, 154.0, 22.0 ],
@@ -3279,7 +3279,7 @@
 
 							}
  ],
-						"originid" : "pat-22"
+						"originid" : "pat-40"
 					}
 ,
 					"patching_rect" : [ 1057.0, 84.0, 157.0, 22.0 ],
@@ -3722,7 +3722,7 @@
 
 							}
  ],
-						"originid" : "pat-24"
+						"originid" : "pat-42"
 					}
 ,
 					"patching_rect" : [ 1057.0, 54.0, 121.0, 22.0 ],
@@ -3757,39 +3757,6 @@
 						"showontab" : 2,
 						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-127",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patcher" : 									{
-										"fileversion" : 1,
-										"appversion" : 										{
-											"major" : 9,
-											"minor" : 0,
-											"revision" : 0,
-											"architecture" : "x64",
-											"modernui" : 1
-										}
-,
-										"classnamespace" : "box",
-										"rect" : [ 994.0, 304.0, 1000.0, 780.0 ],
-										"gridsize" : [ 15.0, 15.0 ],
-										"boxes" : [  ],
-										"lines" : [  ],
-										"originid" : "pat-28"
-									}
-,
-									"patching_rect" : [ 441.0, 126.0, 129.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"globalpatchername" : ""
-									}
-,
-									"text" : "p The Overtone Series"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-104",
 									"maxclass" : "newobj",
@@ -4279,7 +4246,7 @@
 
 							}
  ],
-						"originid" : "pat-26"
+						"originid" : "pat-44"
 					}
 ,
 					"patching_rect" : [ 1057.0, 24.0, 138.0, 22.0 ],
@@ -4305,7 +4272,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-4",
+		"originid" : "pat-24",
 		"parameters" : 		{
 			"obj-155::obj-55" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
