@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# max backup and temp files
+*.maxpat~
+*.bak
+*_bak.maxpat
+
+# editor temp files
+*~
+#*#
+.#*
+
+# local scrach folders
+tmp/

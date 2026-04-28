@@ -1,0 +1,20 @@
+# treat max patches as text for diffs, but do not try automatic merges
+*.maxpat textmerge=ours
+
+# javascript dependencies are normal text
+*.js text eol=lf
+
+# markdown and documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# media and binary files, if any are added
+*.wav binary
+*.aif binary
+*.aiff binary
+*.mp3 binary
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
